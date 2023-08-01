@@ -46,13 +46,13 @@ a {
 .studio {
   color: var(--primarycolor);
 }
-.studio-header {
+.nav .list .link .studio-header {
   color: #404bbf;
 }
-.portfolio-header {
+.nav .list .link .portfolio-header {
   color: #404bbf;
 }
-.portfolio-header::after {
+.nav .list .link .portfolio-header::after {
   content: "";
   position: absolute;
   left: 0;
@@ -62,7 +62,7 @@ a {
   border-radius: 2px;
   width: 66px;
 }
-.studio-header::after {
+.nav .list .link .studio-header::after {
   content: "";
   position: absolute;
   left: 0;
