@@ -39,7 +39,7 @@ a {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #404bbf;
+  color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
 }
@@ -77,6 +77,12 @@ a {
   background-color: #404bbf;
   border-radius: 2px;
   width: 48px;
+}
+.speciall {
+  color: #404bbf;
+}
+.special {
+  color: #404bbf;
 }
 .nav .list {
   display: flex;
