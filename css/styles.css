@@ -39,14 +39,19 @@ a {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #404bbf;
   text-decoration: none;
   margin-right: 76px;
 }
 .studio {
   color: var(--primarycolor);
 }
-
+.studio-name {
+  color: #404bbf;
+}
+.portfolio-name {
+  color: #404bbf;
+}
 .nav .list .link {
   color: #404bbf;
 }
@@ -293,6 +298,7 @@ a {
   border-color: #404bbf;
   color: #404bbf;
 }
+
 .customers-icons {
   fill: currentColor;
 }
