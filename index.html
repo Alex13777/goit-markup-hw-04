@@ -30,9 +30,7 @@
           >
           <ul class="list">
             <li>
-              <a href="./index.html" class="link special"
-                ><span>Studio</span></a
-              >
+              <a href="./index.html" class="link">Studio</a>
             </li>
             <li>
               <a href="./portfolio.html" class="link">Portfolio</a>
@@ -60,7 +58,9 @@
       <section class="main-section">
         <div class="container">
           <h1 class="page-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- Section 2 - Features of WebStudio -->
@@ -418,5 +418,15 @@
         </div>
       </div>
     </footer>
+    <div data-modal class="backdrop">
+      <div class="modal-window">
+        <button type="button" data-modal-close class="button-close-window">
+          <svg width="8" ; height="8" class="icon-cross">
+            <use href="./images/icons.svg#icon-image-19"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
