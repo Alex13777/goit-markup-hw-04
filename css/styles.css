@@ -43,6 +43,9 @@ a {
   text-decoration: none;
   margin-right: 76px;
 }
+.logo {
+  color: #404bbf;
+}
 .studio {
   color: var(--primarycolor);
 }
@@ -145,6 +148,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: auto;
 }
 .page-title {
   color: var(--whitecolor);
